@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(1, 31, 75);
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.App {
+  width: 50%;
+  height: 100vh;
+}
+.App-container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background-color: rgba(62, 105, 247, 0.5);
+  border-radius: 0.3rem;
+  width: 25%;
+  height: 2.5rem;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid black;
+  text-transform: uppercase;
+  box-shadow: 0 0 2px white;
+}
+input:hover {
+  width: 100%;
+  transition: 0.4s;
+}
+input:focus {
+  background-color: rgba(104, 137, 235, 0.2);
+  outline: none;
+}
+.entry {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 0.7rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px white;
+
+  cursor: pointer;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  overflow: hidden;
+  background-image: url("./pic/sunriz.jpg");
+  color: whitesmoke;
+}
+.entry:hover {
+  border-left: 10px solid dodgerblue;
+  transition: 0.2s;
+}
+.input_container {
+  position: sticky;
+  top: 0;
+  padding: 4rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2px white;
+  background-image: url("./pic/sunriz.jpg");
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 100%;
+  }
+  .entry {
+    width: 100%;
+  }
+  input:hover {
+    width: 100%;
+  }
+}
