@@ -27,13 +27,11 @@ function App() {
   }
 
   function handleAddClick(e) {
-    console.log("cliked");
     e.preventDefault();
-
+    console.log("welcome to the app");
     if (!inputValue) return;
 
     setItems([...items, inputValue]);
-    console.log(items);
     setInputValue("");
   }
 
