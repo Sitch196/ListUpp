@@ -9,7 +9,14 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
-
+.logo {
+  color: whitesmoke;
+  font-family: cursive;
+}
+.title-header {
+  display: flex;
+  justify-content: center;
+}
 .App {
   width: 50%;
   height: 100vh;

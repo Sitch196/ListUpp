@@ -40,6 +40,9 @@ function App() {
       <div className="App">
         <form onSubmit={handleAddClick}>
           <div className="input_container">
+            <div className="title-header">
+              <h1 className="logo">ListUpp</h1>
+            </div>
             <input
               type="text"
               value={inputValue}
