@@ -36,8 +36,8 @@ function App() {
   }
 
   return (
-    <div className="App-container">
-      <div className="App">
+    <div className=" App-container">
+      <div className=" App">
         <form onSubmit={handleAddClick}>
           <div className="input_container">
             <div className="title-header">

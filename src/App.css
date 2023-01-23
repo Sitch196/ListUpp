@@ -27,7 +27,7 @@ html {
 }
 
 input {
-  background-color: rgba(62, 105, 247, 0.5);
+  background-color: #020c2b80;
   border-radius: 0.3rem;
   width: 25%;
   height: 2.5rem;
@@ -63,7 +63,7 @@ input:focus {
   color: whitesmoke;
 }
 .entry:hover {
-  border-left: 10px solid dodgerblue;
+  border-left: 10px solid rgb(9, 111, 212);
   transition: 0.2s;
 }
 .input_container {
