@@ -1,2 +1,2 @@
 # ListUpp
-Cheackout my humble todo app here : listupp.netlify.app
+Cheackout my humble todo app here ->  https://listupp.netlify.app/
